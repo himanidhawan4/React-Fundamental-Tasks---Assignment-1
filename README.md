@@ -1,58 +1,18 @@
-# ⚛️ React Fundamental Tasks - Assignment 1
+## React Assignment 1
+This repository contains a solution for the React assignment, with each task broken down into its own file. This modular approach makes the code easier to read, understand, and debug.
 
-A modular React application demonstrating core concepts including JSX, dynamic rendering, props, and component architecture. This project breaks down common UI patterns into reusable functional components.
+# Setup and Usage
+Each task is a standalone React component. To run any of them, you can simply import and render it in your main application file (e.g., App.js).
 
-## 🚀 Quick Start
+# Task Breakdown
+1. Task 1 (Personal Info): PersonalInfo.jsx displays personal details using hard-coded JSX.
 
-1. **Clone & Install:**
-   ```bash
-   git clone [https://github.com/himanidhawan4/react-assignment-1.git](https://github.com/himanidhawan4/react-assignment-1.git)
-   cd react-assignment-1
-   npm install
-  
-2. **Run Application:**
-   npm start
-3. Markdown
-# ⚛️ React Fundamental Tasks - Assignment 1
+2. Task 2 (Date & Time): DateTimeDisplay.jsx dynamically renders the current date and time.
 
-A modular React application demonstrating core concepts including JSX, dynamic rendering, props, and component architecture. This project breaks down common UI patterns into reusable functional components.
+3. Task 3 (Greeting): Greeting.jsx provides a greeting message that changes based on the time of day.
 
-## 🚀 Quick Start
+4. Task 4 (List with map()): ItemList.jsx iterates over a JSON list and displays it as a table.
 
-1. **Clone & Install:**
-   ```bash
-   git clone [https://github.com/himanidhawan4/react-assignment-1.git](https://github.com/himanidhawan4/react-assignment-1.git)
-   cd react-assignment-1
-   npm install
-Run Application:
+5. Task 5 (User Card with Props): UserCard.jsx is a reusable component that takes props (name, age, email) and displays them.
 
-Bash
-npm start
-Open http://localhost:3000 to view it in the browser.
-
-## 🛠️ Task Breakdown
-Task 1 (Personal Info): PersonalInfo.jsx renders student details using static JSX.
-
-Task 2 (Date & Time): DateTimeDisplay.jsx uses JavaScript expressions to show the current date/time.
-
-Task 3 (Greeting): Greeting.jsx applies conditional logic to change messages based on the time of day.
-
-Task 4 (List Rendering): ItemList.jsx uses the .map() method to transform JSON data into a dynamic table.
-
-Task 5 (Reusable Props): UserCard.jsx demonstrates data passing by accepting name, age, and email as props.
-
-Task 6 (Data Flow): ProductList.jsx showcases parent-to-child communication by rendering an array passed from a parent component.
-
-## 📁 Project Structure
-├── src
-│   ├── components
-│   │   ├── PersonalInfo.jsx
-│   │   ├── DateTimeDisplay.jsx
-│   │   ├── Greeting.jsx
-│   │   ├── ItemList.jsx
-│   │   ├── UserCard.jsx
-│   │   └── ProductList.jsx
-│   ├── App.js           # Main container importing all tasks
-│   └── index.js         # Entry point
-├── package.json         # Scripts and dependencies
-└── README.md
+6. Task 6 (Parent-Child Components): ProductList.jsx is a child component that receives an array of products from a parent component to render the list.
